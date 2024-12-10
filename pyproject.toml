@@ -3,8 +3,9 @@ requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "AutoRAG-client"
+name = "AutoRAG-Client"
 authors = [
+    { name = "AutoRAG", email = "martin@auto-rag.com" },
     { name = "AutoRAG", email = "jeffrey@auto-rag.com" }
 ]
 description = 'AutoRAG client is sdk for using AutoRAG Studio Client.'
@@ -23,11 +24,11 @@ classifiers = [
     "Topic :: Software Development :: Libraries",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
-urls = { Homepage = "https://github.com/Marker-Inc-Korea/AutoRAG" }
+urls = { Homepage = "https://github.com/Auto-RAG/autorag-client" }
 dynamic = ["version", "dependencies"]
 
 [tool.setuptools.dynamic]
-version = { file = ["autorag_client/VERSION"] }
+version = { file = ["autorag-client/VERSION"] }
 dependencies = { file = ["requirements.txt"] }
 
 [tool.setuptools]
