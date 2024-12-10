@@ -1,8 +1,13 @@
-# AutoRAG Client
+# AutoRAG Client SDK
 
-This is the client for AutoRAG Studio Cloud.
+The AutoRAG Client SDK is designed to simplify integration with AutoRAG's Retrieval-as-a-Service (RaaS) platform. It enables efficient data retrieval and seamless interaction with the AutoRAG ecosystem.
 
-To register this, please contact to Jeffrey Kim. (jeffrey@auto-rag.com)
+## Features
+
+- **Easy Integration**: Quickly connect your application to AutoRAG’s RaaS platform with minimal setup.
+- **High-Performance API**: Access optimized APIs for fast and accurate data retrieval.
+- **Customizable Configuration**: Tailor the SDK to meet your specific needs with flexible options.
+- **Secure Connectivity**: Ensure enterprise-grade security with robust authentication mechanisms.
 
 ## Tutorials
 
